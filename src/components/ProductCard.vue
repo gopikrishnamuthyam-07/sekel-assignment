@@ -25,7 +25,6 @@
                             <p class="mt-1 text-lg font-medium text-yellow-500">
                                 RS: {{ product.price }}
                             </p>
-                            
                         </a>
                     </div>
                 </div>

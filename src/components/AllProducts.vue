@@ -25,7 +25,8 @@
         </div>
         <div v-else>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 text-center">
-                <div v-for="product in filteredProducts.slice(0, 20)" :key="product.id" class="product-card text-center shadow-lg">
+                <div v-for="product in filteredProducts.slice(0, 20)" :key="product.id"
+                    class="product-card text-center shadow-lg">
                     <ProductCard :product="product" class="cursor-pointer"></ProductCard>
                 </div>
             </div>
