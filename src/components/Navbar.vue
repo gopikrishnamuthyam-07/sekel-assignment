@@ -5,7 +5,7 @@
         <div class="flex items-center justify-between h-16">
           <div class="flex-shrink-0">
             <a href="https://sekel.tech/" target="_blank">
-              <img class="h-8 w-auto" src="https://sekel.tech/img/sekel-logo.svg" alt="Sekel Logo Image" />
+              <img class="h-8 w-auto" src="../assets/sekel-logo.png" alt="Sekel Logo Image" />
             </a>
           </div>
           <div class="hidden sm:flex sm:items-center sm:space-x-4">
