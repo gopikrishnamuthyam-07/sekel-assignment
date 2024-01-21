@@ -69,7 +69,7 @@ const slicedProducts = computed(() => filteredProducts.value.slice(0, 20));
 
 <style scoped>
 .product-card {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 8px;
     margin: 8px;
     text-align: center;
