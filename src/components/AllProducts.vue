@@ -64,7 +64,6 @@ const fetchData = async () => {
 
 onMounted(() => fetchData());
 
-const slicedProducts = computed(() => filteredProducts.value.slice(0, 20));
 </script>
 
 <style scoped>
