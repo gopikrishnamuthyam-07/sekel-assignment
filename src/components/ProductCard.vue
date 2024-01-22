@@ -19,12 +19,12 @@
           >
             {{ product.name }}
           </h5>
-          <h2 v-if="product.category" class="text-red-500 font-semibold italic">
+          <h2 v-if="product.category" class="text-black font-semibold font-serif">
             {{ product.category }}
           </h2>
-          <h2 v-else class="text-red-500 font-semibold italic">&nbsp;</h2>
+          <h2 v-else class="text-red-500 font-semibold">&nbsp;</h2>
           <span class="text-3xl font-bold text-gray-900 dark:text-white">
-            ${{ product.price_sign }} {{ product.price }}</span
+            ${{ product.price }}</span
           >
 
           <div class="flex items-center mt-2.5 mb-5 justify-center">
